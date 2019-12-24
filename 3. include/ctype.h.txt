@@ -1,0 +1,2 @@
+isalpha(ch) - 알파벳 확인
+isblank(ch) - 공백 확인

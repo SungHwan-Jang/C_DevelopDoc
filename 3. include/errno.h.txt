@@ -1,0 +1,5 @@
+errno - err번호 에러 없을시 0
+perror(errno)
+에러 출력
+
+if(errno) 확인 전에 무조건 초기화 후 함수 이용후 if 확인한다.

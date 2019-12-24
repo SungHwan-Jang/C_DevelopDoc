@@ -1,0 +1,11 @@
+CFLAGS=-Wall -g
+
+clean:
+	rm -rf test.c
+
+-g는 디버거 가능하도록 디버거 정보 포함하여 빌드 (디버그 빌드)
+
+이름명으로 Makefile로 해당 프로젝트에 생성
+make 명령어는 Makefile을 찾아서 컴파일한다.
+
+http://bbs.nicklib.com/library/make/Make-1.html

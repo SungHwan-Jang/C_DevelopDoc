@@ -1,0 +1,32 @@
+gdb ./test.exe 으로 실행
+gdb --args 디버깅 프로그램에 파라미터 제공시 사용
+thread apply all bt 모든 스레드에 대해 백트레이스 정보를 덤프한다.
+gdb --batch --ex -r --ex bt --ex q --args ./test.exe
+실행중인 프로그램이 죽을때 백 트레이스 정보를 얻도록한다.
+
+
+run[args] 파라미터 args와 함께 프로그램 실행
+break (b) break point 지정
+backtrace (bt) 현재의 호출 스택에 대한 백트레이스를 덤프한다.
+print expr (p) expr값을 출력
+continue (c) 프로그램 실행을 계속
+next (n) 다음 줄까지만 실행 함수 호출시 함수 안으로 진입하지 않는다.
+step (s) 다음줄까지 실행, 호출시 함수 안으로 진입.
+what is [VAR] 변수 타입 확인
+set variable [VAR] 변수값 지정
+disas [FUN_NAME] 함수 덤프
+info register 레지스터 정보
+info variable 전역변수 정보
+info locals 지역변수 정보
+
+quit 종료
+
+cd, pwd, make shell과 같이 동작
+shell 다른일을 할 수 있도록 잠시 쉘을 띄움.
+info break, info watch 중단점과 관찰점에 대한 정보를 보여줌
+attach pid 실행중인 프로세스를 붙여 디버그 할 수 있도록 한다.
+detach 프로세스 분리
+list 소스코드를 현재 위치에서 10줄을 보여준다. (- 붙이면 위로 10줄)
+
+
+
