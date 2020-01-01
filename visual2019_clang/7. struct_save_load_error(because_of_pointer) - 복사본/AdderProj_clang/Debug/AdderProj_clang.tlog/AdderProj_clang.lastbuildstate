@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=ClangCL:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0
+Debug|Win32|E:\C_DevelopDoc\visual2019_clang\7. struct_save_load_error(because_of_pointer) - 복사본\|

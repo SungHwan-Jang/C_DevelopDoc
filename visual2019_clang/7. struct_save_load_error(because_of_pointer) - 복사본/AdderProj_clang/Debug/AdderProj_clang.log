@@ -1,0 +1,5 @@
+﻿main.c(41,11): warning : 'fopen' is deprecated: This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [-Wdeprecated-declarations]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(207,20): message : 'fopen' has been explicitly marked deprecated here
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vcruntime.h(311,55): message : expanded from macro '_CRT_INSECURE_DEPRECATE'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vcruntime.h(301,47): message : expanded from macro '_CRT_DEPRECATE_TEXT'
+  AdderProj_clang.vcxproj -> E:\C_DevelopDoc\visual2019_clang\7. struct_save_load_error(because_of_pointer) - 복사본\Debug\AdderProj_clang.exe

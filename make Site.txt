@@ -1,0 +1,14 @@
+공식 매뉴얼
+http://www.gnu.org/software/make/manual/make.html
+
+보기1 약어 정리
+https://skywheel.tistory.com/entry/GNU-Make-%EC%A0%95%EB%A6%AC
+http://blog.naver.com/PostView.nhn?blogId=windi97&logNo=220391555690&parentCategoryNo=&categoryNo=16&viewDate=&isShowPopularPosts=true&from=search
+
+보기2 기본 정리
+http://doc.kldp.org/KoreanDoc/html/GNU-Make/GNU-Make-1.html
+
+보기3 기본+ 정리
+https://orchistro.tistory.com/172
+
+
